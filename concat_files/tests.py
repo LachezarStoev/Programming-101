@@ -3,7 +3,7 @@ from subprocess import call
 from solution import concat_files
 class ConcatFilesTest(unittest.TestCase):
 	def setUp(self):
-		self.file_megatron=open("MEGATRON","r+")
+		self.file_megatron=open("MEGATRON","w+")
 		self.content_megatron=self.file_megatron.read()
 		self.file_megatron.close()
 		self.file_name="file_with_data_test"

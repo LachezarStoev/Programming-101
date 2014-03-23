@@ -1,4 +1,4 @@
-simport unittest
+import unittest
 from solution import is_int_palindrome
 class PalindromeTest(unittest.TestCase):
 	def test_is_palindrome(self):
